@@ -1,0 +1,31 @@
+.bg-custom,.carousel-item{
+    background-color: #fceae8;
+    border-radius: 10px;
+    
+}
+.card,.card-footer,.btn-custom{
+    border: none;
+}
+.category img{
+    width: 100px;
+}
+#subscribe{
+    background-color: #fceae8;
+}
+.btn-custom{
+    background-image: linear-gradient(#FF589B ,#FF136F );
+    border-radius: 9px;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 25px;
+    
+
+}
+.btn-custom:hover{
+    border-radius: 9px;
+    font-weight: 600;
+    padding: 10px 25px;
+    
+
+}
+

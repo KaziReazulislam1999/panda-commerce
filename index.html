@@ -16,7 +16,7 @@
 <body>
     
 <header class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,17 +25,17 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Shoes</a>
-              <a class="nav-link" href="#">Backpack</a>
-              <a class="nav-link " href="#">Subscribe</a>
+              <a class="nav-link" href="#shoes">Shoes</a>
+              <a class="nav-link" href="#backpack">Backpack</a>
+              <a class="nav-link " href="#subscribe">Subscribe</a>
             </div>
           </div>
         </div>
       </nav>
 
       <section class="banner-top">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
+        <div id="carouselExampleControls" class="carousel slide bg-custom mt-5" data-bs-ride="carousel">
+            <div class="carousel-inner p-5">
               <div class="carousel-item active">
                 <div class="row d-flex align-items-center">
                     <div class="col-md-7">
@@ -43,7 +43,7 @@
                             <h1>Mega LCD TV For Sports</h1>
                             <p>This is the best tv in the world for people who just want to waste time in front of tv.</p>
                             <h3>$1200</h3>
-                            <button class="btn btn-warning">Buy Now</button>
+                            <button class="btn-custom">Buy Now</button>
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -59,7 +59,7 @@
                         <h1>Cool Dude Headphone</h1>
                         <p>This is the best headphone in the world for people who just want to waste time in front of funky world </p>
                         <h3>$420</h3>
-                        <button class="btn btn-warning">Buy Now</button>
+                        <button class="btn-custom">Buy Now</button>
                     </div>
                    </div>
                    <div class="col-md-5">
@@ -75,7 +75,7 @@
                             <h1>X-Box for your living room</h1>
                             <p>This is the best x-box in the world for people who just want to waste time in front of fake sports </p>
                             <h3>$600</h3>
-                            <button class="btn btn-warning">Buy Now</button>
+                            <button class="btn-custom">Buy Now</button>
                         </div>
                        </div>
                        <div class="col-md-5">
@@ -100,8 +100,8 @@
 </header>
 
 <main class="container">
-    <section class="container overflow-hidden mt-5">
-        <div class="row gx-5">
+    <section class="category overflow-hidden mt-5">
+        <div class="row g-5">
           <div class="col">
            <div class="p-3 border bg-warning align-items-center justify-content-around rounded d-flex">
                <h1 class="text-white">Watch</h1>
@@ -125,7 +125,7 @@
         </div>
       </section>
 
-<section class="mt-5">
+<section id="shoes" class="shoes-wrapper mt-5">
     <h1>Shoes</h1>
     <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
@@ -135,8 +135,8 @@
               <h5 class="card-title">Supply 350</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
             </div>
-            <div class="card-footer">
-                <button class="btn btn-warning">Buy Now >></button>
+            <div class="card-footer mb-3">
+                <button class="btn-custom">Buy Now >></button>
             </div>
           </div>
         </div>
@@ -147,8 +147,8 @@
               <h5 class="card-title">Nike 360</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
             </div>
-            <div class="card-footer">
-              <button class="btn btn-warning">Buy Now >></button>
+            <div class="card-footer mb-3">
+              <button class="btn-custom">Buy Now >></button>
             </div>
           </div>
         </div>
@@ -159,8 +159,8 @@
               <h5 class="card-title">Red Airmax</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
             </div>
-            <div class="card-footer">
-              <button class="btn btn-warning">Buy Now >></button>
+            <div class="card-footer mb-3">
+              <button class="btn-custom">Buy Now >></button>
 
             </div>
           </div>
@@ -168,7 +168,7 @@
       </div>
 </section>
 
-<section class="mt-5">
+<section id="backpack" class="mt-5">
     <h1>Backpack</h1>
     <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
@@ -180,8 +180,8 @@
 
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
             </div>
-            <div class="card-footer">
-                <button class="btn btn-warning">Buy Now >></button>
+            <div class="card-footer mb-3">
+                <button class="btn-custom">Buy Now >></button>
             </div>
           </div>
         </div>
@@ -194,8 +194,8 @@
 
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
             </div>
-            <div class="card-footer">
-              <button class="btn btn-warning">Buy Now >></button>
+            <div class="card-footer mb-3">
+              <button class="btn-custom">Buy Now >></button>
             </div>
           </div>
         </div>
@@ -207,8 +207,8 @@
               <h5>$169</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
             </div>
-            <div class="card-footer">
-              <button class="btn btn-warning">Buy Now >></button>
+            <div class="card-footer mb-3">
+              <button class="btn-custom">Buy Now >></button>
 
             </div>
           </div>
@@ -216,13 +216,13 @@
       </div>
 </section>
 
-<section style="height: 300px;" class="d-flex align-items-center justify-content-center bg-info
-">
-    <div class="get-in-touch-wrapper">
+<section id="subscribe" style="height: 300px;" class="d-flex align-items-center justify-content-center mt-5">
+    <div class="get-in-touch-wrapper text-center">
         <h1>LET'S STAY IN TOUCH</h1>
         <h6>Get updates on sales, specials and more</h6>
         <input type="email" placeholder="Enter Your Email Address">
-        <input type="submit" class="bg-warning" value="Submit">
+        <br>
+        <input type="submit" class="btn-custom mt-2" value="Submit">
 
     </div>
 
@@ -237,7 +237,12 @@
 
     
 
+    <!-- jQuery js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 
+    <!-- Poper js -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    
     <!-- Bootstrap Js -->
     <script src="js/bootstrap.min.js"></script>
 </body>
